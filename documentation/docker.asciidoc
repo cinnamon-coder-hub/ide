@@ -3,6 +3,7 @@ toc::[]
 
 = Docker
 
+"link:docker-desktop-alternative.asciidoc"
 The Docker commandlet allows to install and use https://www.docker.com/[Docker].
 On Windows https://docs.microsoft.com/en-us/windows/wsl/install-win10[WSL 2](Windows Subsystem for Linux) has to be installed properly as a prerequisite.
 
