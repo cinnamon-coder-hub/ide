@@ -3,11 +3,11 @@ toc::[]
 
 = Docker
 
-The Docker commandlet allows to install and use https://www.docker.com/[Docker].
-On Windows https://docs.microsoft.com/en-us/windows/wsl/install-win10[WSL 2](Windows Subsystem for Linux) has to be installed properly as a prerequisite. In case of using Rancher Desktop the process of enabling WSL and installing a WSL distribution will be handled by Rancher Desktop.
-This commandlet also offers the installation of https://rancherdesktop.io/[Rancher Desktop], which works on Windows, Mac and Linux.
-To run the tools installed and managed by Rancher Desktop it is necessary to have Rancher Desktop up and running.  
-To assure that you are able to use these tools directly after startup, you can add Rancher Desktop to the startup programs
+The Docker commandlet allows to install and use https://www.docker.com/[Docker]. This commandlet also offers the installation of https://rancherdesktop.io/[Rancher Desktop], which works on Windows, Mac and Linux.
+On Windows https://docs.microsoft.com/en-us/windows/wsl/install-win10[WSL 2](Windows Subsystem for Linux) has to be installed properly as a prerequisite. In case of using Rancher Desktop or Docker Desktop the process of enabling WSL and installing a WSL distribution will be handled by those programs during the installation process.
+
+To run the tools installed and managed by Rancher Desktop it is necessary to have Rancher Desktop up and running. The same is true for Docker Desktop.
+To assure that you are able to use these tools directly after startup, you can add Rancher Desktop or Docker Desktop to the startup programs
 of your Operating System. Such instructions will be given below inside the sections for Windows, Mac and Linux.
 
 *ATTENTION:*
@@ -37,8 +37,7 @@ for our installation, due to it being license free compared to Docker Desktop wh
 
 === Docker Desktop
 
-Docker Desktop can still be used by setting the variable DOCKER_EDITION equal to "DOCKERDESKTOP". 
-This can be done by your projects ide-admin in the link:usage.asciidoc#developer[settings file]. If you want to switch from Rancher Desktop to Docker Desktop, then add a line with the following content 
+Docker Desktop can still be used by setting the variable DOCKER_EDITION equal to "DOCKERDESKTOP". If you want to switch from Rancher Desktop to Docker Desktop, then add a line with the following content 
 "DOCKER_EDITION=DOCKERDESKTOP" 
 (without the quotes around the allocation) to the file devon.properties located at the path ${DEVON_IDE_HOME}/conf/devon.properties.
 
