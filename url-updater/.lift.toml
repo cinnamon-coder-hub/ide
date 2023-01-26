@@ -1,1 +1,4 @@
-ignoreRules = [ @SuppressWarnings("Var") ]
+build = "mvn"
+jdkVersion = "17"
+
+ignoreRules = [ "Var" ]
