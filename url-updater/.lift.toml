@@ -1,4 +1,4 @@
 build = "mvn"
 jdkVersion = "17"
 
-ignoreRules = [ "Var" ]
+ignoreRules = [ "Var", "Varifier" ]
